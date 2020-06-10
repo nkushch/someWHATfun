@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.DS_Store
+*.Rproj
+*.Rds
+*.rds
+*.RDS 
+*.xlsx
+*.xls
+*.csv
+Trash.R
+data/
+Data/
