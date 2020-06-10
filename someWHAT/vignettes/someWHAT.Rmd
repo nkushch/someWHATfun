@@ -1,0 +1,24 @@
+---
+title: "How to use the someWHAT function"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{A description goes here}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(someWHAT)
+```
+
+# The someWHAT function
+
+This function requires a numeric vector input. It will return errors if the
+input is not a numeric vector or if it contains missing values. 
