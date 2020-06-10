@@ -1,2 +1,2 @@
 # someWHATfun
-A package for the someWHAT function
+Creating a package for the someWHAT function

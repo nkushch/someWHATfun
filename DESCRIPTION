@@ -1,0 +1,20 @@
+Package: someWHAT
+Title: Calculate the sum of a numeric vector
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Nicholas",
+           family = "Kushch",
+           role = c("aut", "cre"),
+           email = "n.kushch@miami.edu")
+Description: Calculates the sum of a numeric vector, displaying proper error
+  messages for incompatible data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
