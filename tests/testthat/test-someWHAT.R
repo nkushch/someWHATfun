@@ -4,7 +4,7 @@ test_that("sum works", {
 
 test_that("stops non-numeric", {
   expect_error(some(c(2,3,"i like chocolate milk",5)),
-               "This argument is a character but should be a numeric vector")
+               "This argument `x` is a character, but it should be numeric")
 })
 
 
