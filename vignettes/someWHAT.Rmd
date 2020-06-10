@@ -20,5 +20,4 @@ library(someWHAT)
 
 # The someWHAT function
 
-This function requires a numeric vector input. It will return errors if the
-input is not a numeric vector or if it contains missing values. 
+This function requires a numeric vector input. It will return errors if the input is not a numeric vector or if it contains missing values. 
