@@ -7,5 +7,10 @@ test_that("stops non-numeric", {
                "This argument `x` is a character, but it should be numeric")
 })
 
+test_that("stops missing values", {
+  expect_error(some(c(2,3,NA,5)),
+               "Missing values are not allowed")
+})
+
 
 
