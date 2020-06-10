@@ -7,11 +7,11 @@
 #'
 #' @examples some(c(1, 2))
 some <- function(x){
-  if (!is.vector(x)) {
-    stop("The first argument `x` should be vector", call. = FALSE)
+  if((is.character(x))){
+    stop("This argument is a character but should be a numeric vector", call. = FALSE)
   }
-  if (any(is.na(x))) {
-    stop("Missing values are not allowed", call. = FALSE)
+  if((!is.numeric(x))){
+    stop("The argument should be a numeric vector", call. = FALSE)
   }
   sum(x)
 }
